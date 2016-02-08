@@ -15,16 +15,20 @@ colors.setTheme({
 	info: [argv.c, 'bold']
 });
 
-console.log('\n\t 	❦❦❦❦❦❦           ❦❦❦❦❦❦'	.info);
+colors.setTheme({
+	make: ['cyan', 'bold']
+});
+
+console.log('\n\n\n\t 	❦❦❦❦❦❦           ❦❦❦❦❦❦'	.info);
 console.log('\t      ❦❦❦❦❦❦❦❦❦❦       ❦❦❦❦❦❦❦❦❦❦'	.info);
 console.log('\t    ❦❦❦❦❦❦❦❦❦❦❦❦❦❦   ❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
 console.log('\t  ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦ ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
 console.log('\t ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
 console.log('\t❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
 console.log('\t❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
-console.log('\t❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
 console.log('\t ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
 console.log('\t  ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
+console.log('\t\t\t' + argv.u.toUpperCase().make);
 console.log('\t   ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
 console.log('\t    ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
 console.log('\t      ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
@@ -34,4 +38,4 @@ console.log('\t            ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'		.info
 console.log('\t              ❦❦❦❦❦❦❦❦❦❦❦'		.info);
 console.log('\t                ❦❦❦❦❦❦❦'			.info);
 console.log('\t                  ❦❦❦'			.info);
-console.log('\t                   ❦\n'			.info);
+console.log('\t                   ❦\n\n\n'		.info);
