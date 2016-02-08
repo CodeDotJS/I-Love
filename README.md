@@ -1,6 +1,6 @@
 # i-love
 
-> show your love on this valentine's day though console.
+> show your love on this valentine's day through console.
 
 ## Install
 
