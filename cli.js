@@ -1,13 +1,18 @@
 const colors = require('colors');
 
+colors.setTheme({
+	start: ['yellow', 'bold']
+});
+
 const argv = require('yargs')
-    .usage('Usage: $0 -u [/user.name]'.info)
-    .demand(['u'])
-    .describe('u', ' : black | red | green | yellow | blue | magenta | cyan')
+    .usage('\nUsage: $0 -u Rachel -c green'.start)
+    .describe('u', 'Name')
+    .describe('c', 'Set Colors')
+    .demand(['u', 'c'])
     .argv;
 
 colors.setTheme({
-	info: [argv.u, 'bold']
+	info: [argv.c, 'bold']
 });
 
 console.log('\n\t 	❦❦❦❦❦❦           ❦❦❦❦❦❦'.info);
