@@ -15,12 +15,17 @@ $ i-love
 
   Usage :
 
-    $ i-love -u 'unicorn'
+    $ i-love -u Rachel -c green
+    
+    Options:
+  -u  Name                                                            [required]
+  -c  Set Colors                                                      [required]
+
 
 ```
 ## Screenshot
 
-<img src="https://camo.githubusercontent.com/cc30f913529e717ba01a8d01c6691a1b28105cb1/687474703a2f2f7269736869676972692e636f6d2f6769746875622f736f6f6e2e706e67"></img>
+<img src="http://rishigiri.com/github/love.png"></img>
 
 ## License
 
