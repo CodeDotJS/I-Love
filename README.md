@@ -15,7 +15,7 @@ $ i-love
 
   Usage :
 
-    $ i-love -u Rachel -c green
+    $ i-love -u UNICORN -c rainbow
     
     Options:
   -u  Name                                                            [required]
