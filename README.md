@@ -25,7 +25,7 @@ $ i-love
 ```
 ## Screenshot
 
-<img src="http://rishigiri.com/github/love.png"></img>
+<img src="http://rishigiri.com/github/unicon.png"></img>
 
 ## License
 
