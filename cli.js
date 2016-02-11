@@ -5,7 +5,7 @@ colors.setTheme({
 });
 
 const argv = require('yargs')
-    .usage('\nUsage: $0 -u Rachel -c green'.start)
+    .usage('\nUsage: $0 -u unicorn -c rainbow'.start)
     .describe('u', 'Name')
     .describe('c', 'Set Colors')
     .demand(['u', 'c'])
