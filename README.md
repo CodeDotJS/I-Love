@@ -1,6 +1,6 @@
 <h1 align="center">
-<img width="330" height="165" src="http://rishigiri.com/github/ilove.png"></img>
-<br>
+	<img width="330" height="165" src="http://rishigiri.com/github/fbimg.png" alt="i-love">
+	<br>
 </h1>
 
 > show your love on this valentine's day through console.
