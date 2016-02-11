@@ -1,41 +1,41 @@
-const colors = require('colors');
+const colors = require('colors')
 
 colors.setTheme({
-	start: ['yellow', 'bold']
-});
+  start: ['yellow', 'bold']
+})
 
 const argv = require('yargs')
-    .usage('\nUsage: $0 -u unicorn -c rainbow'.start)
-    .describe('u', 'Name')
-    .describe('c', 'Set Colors')
-    .demand(['u', 'c'])
-    .argv;
+  .usage('\nUsage: $0 -u unicorn -c rainbow'.start)
+  .describe('u', 'Name')
+  .describe('c', 'Set Colors')
+  .demand(['u', 'c'])
+  .argv
 
 colors.setTheme({
-	info: [argv.c, 'bold']
-});
+  info: [argv.c, 'bold']
+})
 
 colors.setTheme({
-	make: ['cyan', 'bold']
-});
+  make: ['cyan', 'bold']
+})
 
-console.log('\n\n\n\t 	❦❦❦❦❦❦           ❦❦❦❦❦❦'	.info);
-console.log('\t      ❦❦❦❦❦❦❦❦❦❦       ❦❦❦❦❦❦❦❦❦❦'	.info);
-console.log('\t    ❦❦❦❦❦❦❦❦❦❦❦❦❦❦   ❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
-console.log('\t  ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦ ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
-console.log('\t ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
-console.log('\t❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
-console.log('\t❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
-console.log('\t ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
-console.log('\t  ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
-console.log('\t\t\t' + argv.u.toUpperCase().make);
-console.log('\t   ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
-console.log('\t    ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
-console.log('\t      ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'	.info);
-console.log('\t        ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'		.info);
-console.log('\t          ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'		.info);
-console.log('\t            ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'		.info);
-console.log('\t              ❦❦❦❦❦❦❦❦❦❦❦'		.info);
-console.log('\t                ❦❦❦❦❦❦❦'			.info);
-console.log('\t                  ❦❦❦'			.info);
-console.log('\t                   ❦\n\n\n'		.info);
+console.log('\n\n\n\t 	❦❦❦❦❦❦           ❦❦❦❦❦❦'.info)
+console.log('\t      ❦❦❦❦❦❦❦❦❦❦       ❦❦❦❦❦❦❦❦❦❦'.info)
+console.log('\t    ❦❦❦❦❦❦❦❦❦❦❦❦❦❦   ❦❦❦❦❦❦❦❦❦❦❦❦❦❦'.info)
+console.log('\t  ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦ ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'.info)
+console.log('\t ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'.info)
+console.log('\t❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'.info)
+console.log('\t❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'.info)
+console.log('\t ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'.info)
+console.log('\t  ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'.info)
+console.log('\t\t\t' + argv.u.toUpperCase().make)
+console.log('\t   ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'.info)
+console.log('\t    ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'.info)
+console.log('\t      ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'.info)
+console.log('\t        ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'.info)
+console.log('\t          ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'.info)
+console.log('\t            ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'.info)
+console.log('\t              ❦❦❦❦❦❦❦❦❦❦❦'.info)
+console.log('\t                ❦❦❦❦❦❦❦'.info)
+console.log('\t                  ❦❦❦'.info)
+console.log('\t                   ❦\n\n\n'.info)
