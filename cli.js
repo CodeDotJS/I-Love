@@ -8,10 +8,6 @@ colors.setTheme({
 	start: ['yellow', 'bold']
 });
 
-colors.setTheme({
-	make: ['cyan', 'bold']
-});
-
 const argv = require('yargs')
   .usage('\nUsage: $0 -u unicorn -c rainbow'.start)
   .describe('u', 'Name')
@@ -21,6 +17,10 @@ const argv = require('yargs')
 
 colors.setTheme({
 	info: [argv.c, 'bold']
+});
+
+colors.setTheme({
+	make: ['cyan', 'bold']
 });
 
 console.log('\n\n\n\t 	❦❦❦❦❦❦           ❦❦❦❦❦❦'.info);
