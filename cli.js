@@ -1,8 +1,3 @@
-
-#!/usr/bin/env node
-
-'use strict';
-
 const colors = require('colors');
 
 colors.setTheme({
