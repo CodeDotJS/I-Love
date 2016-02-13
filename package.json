@@ -45,6 +45,5 @@
     "url": "https://github.com/codedotjs/I-Love/issues"
   },
   "homepage": "https://github.com/codedotjs/I-Love#readme",
-  "readmeFilename": "README.md",
   "main": "cli.js"
 }
