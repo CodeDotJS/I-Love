@@ -1,15 +1,15 @@
-const colors = require('colors');
-
-colors.setTheme({
-	start: ['yellow', 'bold']
-});
-
 const argv = require('yargs')
   .usage('\nUsage: $0 -u unicorn -c rainbow'.start)
   .describe('u', 'Name')
   .describe('c', 'Set Colors')
   .demand(['u', 'c'])
   .argv;
+
+const colors = require('colors');
+
+colors.setTheme({
+	start: ['yellow', 'bold']
+});
 
 colors.setTheme({
 	info: [argv.c, 'bold']
