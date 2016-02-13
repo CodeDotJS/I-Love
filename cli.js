@@ -1,9 +1,6 @@
-const argv = require('yargs')
-  .usage('\nUsage: $0 -u unicorn -c rainbow'.start)
-  .describe('u', 'Name')
-  .describe('c', 'Set Colors')
-  .demand(['u', 'c'])
-  .argv;
+#!/usr/bin/env node
+
+'use strict';
 
 const colors = require('colors');
 
@@ -12,11 +9,18 @@ colors.setTheme({
 });
 
 colors.setTheme({
-	info: [argv.c, 'bold']
+	make: ['cyan', 'bold']
 });
 
+const argv = require('yargs')
+  .usage('\nUsage: $0 -u unicorn -c rainbow'.start)
+  .describe('u', 'Name')
+  .describe('c', 'Set Colors')
+  .demand(['u', 'c'])
+  .argv;
+
 colors.setTheme({
-	make: ['cyan', 'bold']
+	info: [argv.c, 'bold']
 });
 
 console.log('\n\n\n\t 	❦❦❦❦❦❦           ❦❦❦❦❦❦'.info);
