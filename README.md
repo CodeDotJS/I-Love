@@ -30,18 +30,24 @@ $ i-love
 
 ## Extra
 
-> Extra colors available ( execpt rainbow ) :
+> Extra colors available ( execpt rainbow ) : 
 
-```
-- red									- magenta
-- green									- gray
-- yellow								- grey
-- blue									- zebra
-- cyan									- america
-- white									- random
-- black 							    - trap
-
-```
+__NOTE__ : You can copy and paste the following commands in your console
+	
+	> red
+	> green
+	> yellow
+	> blue
+	> cyan
+	> white
+	> black
+	> magenta
+	> gray
+	> grey
+	> zebra
+	> america
+	> random
+	> trap
 
 ## Screenshot
 
