@@ -33,21 +33,21 @@ $ i-love
 > Extra colors available ( execpt rainbow ) : 
 
 __NOTE__ : You can copy and paste the following commands in your console
-	
-	> red
-	> green
-	> yellow
-	> blue
-	> cyan
-	> white
-	> black
-	> magenta
-	> gray
-	> grey
-	> zebra
-	> america
-	> random
-	> trap
+
+> $ i-love -u UNICORN -c red
+> $ i-love -u UNICORN -c green
+> $ i-love -u UNICORN -c yellow
+> $ i-love -u UNICORN -c blue
+> $ i-love -u UNICORN -c cyan
+> $ i-love -u UNICORN -c white
+> $ i-love -u UNICORN -c black
+> $ i-love -u UNICORN -c magenta
+> $ i-love -u UNICORN -c gray
+> $ i-love -u UNICORN -c grey
+> $ i-love -u UNICORN -c zebra
+> $ i-love -u UNICORN -c america
+> $ i-love -u UNICORN -c random
+> $ i-love -u UNICORN -c trap
 
 ## Screenshot
 
