@@ -27,6 +27,22 @@ $ i-love
 
 
 ```
+
+## Extra
+
+> Extra colors available :
+
+```
+- red										- magenta
+- green									- gray
+- yellow								   - grey
+- blue									- zebra
+- cyan									- america
+- white									- random
+- black 									- trap
+
+```
+
 ## Screenshot
 
 <img src="http://rishigiri.com/github/unicon.png"></img>
