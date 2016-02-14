@@ -30,16 +30,16 @@ $ i-love
 
 ## Extra
 
-> Extra colors available :
+> Extra colors available ( execpt rainbow ) :
 
 ```
-- red										- magenta
+- red									- magenta
 - green									- gray
-- yellow								   - grey
+- yellow								- grey
 - blue									- zebra
 - cyan									- america
 - white									- random
-- black 									- trap
+- black 							    - trap
 
 ```
 
