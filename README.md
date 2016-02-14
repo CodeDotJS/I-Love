@@ -39,7 +39,7 @@ $ i-love
 - blue									- zebra
 - cyan									- america
 - white									- random
-- black 							     - trap
+- black 							    - trap
 
 ```
 
