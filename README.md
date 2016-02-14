@@ -18,7 +18,7 @@ $ i-love
 
   Usage :
 
-    $ i-love -u UNICORN -c rainbow
+    $ i-love -u unicorn -c rainbow
     
     Options:
 
@@ -38,34 +38,35 @@ $ i-love
 
 __NOTE__ : You can copy and paste the following commands in your console
 
-> $ i-love -u UNICORN -c red
+```
+$ i-love -u unicorn -c red
 
-> $ i-love -u UNICORN -c green
+$ i-love -u unicorn -c green
 
-> $ i-love -u UNICORN -c yellow
+$ i-love -u unicorn -c yellow
 
-> $ i-love -u UNICORN -c blue
+$ i-love -u unicorn -c blue
 
-> $ i-love -u UNICORN -c cyan
+$ i-love -u unicorn -c cyan
 
-> $ i-love -u UNICORN -c white
+$ i-love -u unicorn -c white
 
-> $ i-love -u UNICORN -c black
+$ i-love -u unicorn -c black
 
-> $ i-love -u UNICORN -c magenta
+$ i-love -u unicorn -c magenta
 
-> $ i-love -u UNICORN -c gray
+$ i-love -u unicorn -c gray
 
-> $ i-love -u UNICORN -c grey
+$ i-love -u unicorn -c grey
 
-> $ i-love -u UNICORN -c zebra
+$ i-love -u unicorn -c zebra
 
-> $ i-love -u UNICORN -c america
+$ i-love -u unicorn -c america
 
-> $ i-love -u UNICORN -c random
+$ i-love -u unicorn -c random
 
-> $ i-love -u UNICORN -c trap
-
+$ i-love -u unicorn -c trap
+```
 
 ## License
 
