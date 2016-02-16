@@ -23,7 +23,7 @@ colors.setTheme({
 	make: ['cyan', 'bold']
 });
 
-console.log('\n\n\n\t 	❦❦❦❦❦❦           ❦❦❦❦❦❦'.info);
+console.log('\n\t 	❦❦❦❦❦❦           ❦❦❦❦❦❦'.info);
 console.log('\t      ❦❦❦❦❦❦❦❦❦❦       ❦❦❦❦❦❦❦❦❦❦'.info);
 console.log('\t    ❦❦❦❦❦❦❦❦❦❦❦❦❦❦   ❦❦❦❦❦❦❦❦❦❦❦❦❦❦'.info);
 console.log('\t  ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦ ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'.info);
@@ -42,4 +42,4 @@ console.log('\t            ❦❦❦❦❦❦❦❦❦❦❦❦❦❦❦'.info);
 console.log('\t              ❦❦❦❦❦❦❦❦❦❦❦'.info);
 console.log('\t                ❦❦❦❦❦❦❦'.info);
 console.log('\t                  ❦❦❦'.info);
-console.log('\t                   ❦\n\n\n'.info);
+console.log('\t                   ❦\n'.info);
