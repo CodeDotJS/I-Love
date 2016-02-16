@@ -30,7 +30,7 @@ $ i-love
 
 ## Screenshot
 
-<img src="http://rishigiri.com/github/unicon.png"></img>
+<img src="http://rishigiri.com/github/love.gif"></img>
 
 ## Extra
 
