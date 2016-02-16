@@ -5,7 +5,7 @@
 const colors = require('colors');
 
 colors.setTheme({
-	start: ['yellow', 'bold']
+	start: ['green', 'bold']
 });
 
 const argv = require('yargs')
