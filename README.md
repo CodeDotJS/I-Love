@@ -5,8 +5,6 @@
 
 <h5 align="center">Show your love on this Valentine's Day through console.</h5>
 
-![Dependency Status](https://www.versioneye.com/nodejs/i-love/1.2.3/badge?style=flat)
-
 ## Install
 
 ```
