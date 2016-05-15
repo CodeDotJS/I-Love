@@ -3,9 +3,9 @@
 	<br>
 </h1>
 
-<h3 align="center">show your love on this valentine's day through console.</h3>
+<h5 align="center">Show your love on this Valentine's Day through console.</h5>
 
-[![Dependency Status](https://www.versioneye.com/nodejs/i-love/1.2.3/badge?style=flat)](https://www.versioneye.com/nodejs/i-love/1.2.3)
+<center>[![Dependency Status](https://www.versioneye.com/nodejs/i-love/1.2.3/badge?style=flat)](https://www.versioneye.com/nodejs/i-love/1.2.3)</center>
 
 ## Install
 
