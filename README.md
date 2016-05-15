@@ -3,7 +3,7 @@
 	<br>
 </h1>
 
-> show your love on this valentine's day through console.
+<center>show your love on this valentine's day through console.</center>
 
 [![Dependency Status](https://www.versioneye.com/nodejs/i-love/1.2.3/badge?style=flat)](https://www.versioneye.com/nodejs/i-love/1.2.3)
 
@@ -47,11 +47,9 @@ $ i-love -u captain -c america
 
 <img src="http://rishigiri.com/github/love.gif"></img>
 
-## Extra
+## Test
 
-> Extra colors available ( execpt rainbow ) : 
-
-__NOTE__ : You can copy and paste the following commands in your console
+__NOTE__ : You can copy and paste the following commands in your console.
 
 ```
 $ i-love -u unicorn -c red
@@ -72,25 +70,10 @@ $ i-love -u unicorn -c cyan
 $ i-love -u unicorn -c white
 ```
 ```
-$ i-love -u unicorn -c black
-```
-```
 $ i-love -u unicorn -c magenta
 ```
 ```
-$ i-love -u unicorn -c gray
-```
-```
-$ i-love -u unicorn -c grey
-```
-```
 $ i-love -u unicorn -c zebra
-```
-```
-$ i-love -u unicorn -c random
-```
-```
-$ i-love -u unicorn -c trap
 ```
 
 ## License
