@@ -1,7 +1,7 @@
 <h1 align="center">
 	<img width="330" height="165" src="http://rishigiri.com/github/ilove.png" alt="i-love">
 	<br>
-	<center>show your love on this valentine's day through console.</center>
+	<center><h2>show your love on this valentine's day through console.<h2></center>
 </h1>
 
 
