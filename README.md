@@ -1,9 +1,9 @@
 <h1 align="center">
 	<img width="330" height="165" src="http://rishigiri.com/github/ilove.png" alt="i-love">
 	<br>
+	<center>show your love on this valentine's day through console.</center>
 </h1>
 
-<center>show your love on this valentine's day through console.</center>
 
 [![Dependency Status](https://www.versioneye.com/nodejs/i-love/1.2.3/badge?style=flat)](https://www.versioneye.com/nodejs/i-love/1.2.3)
 

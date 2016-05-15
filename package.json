@@ -31,7 +31,8 @@
   ],
   "dependencies": {
     "yargs": "*",
-    "colors": "*"
+    "colors": "*",
+    "update-notifier": "*"
   },
   "devDependencies": {
     "ava": "*",
