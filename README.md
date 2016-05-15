@@ -5,6 +5,8 @@
 
 > show your love on this valentine's day through console.
 
+[![Dependency Status](https://www.versioneye.com/nodejs/i-love/1.2.3/badge?style=flat)](https://www.versioneye.com/nodejs/i-love/1.2.3)
+
 ## Install
 
 ```
@@ -14,18 +16,31 @@ $ npm install --global i-love
 ## Usage
 
 ```
+Usage: i-love <option> [name] <option> [color]
+
 $ i-love
 
-  Usage :
+Options:
 
-    $ i-love -u unicorn -c rainbow
-    
-    Options:
+	-u   ❱ any name.                                     [required]
+	-c   ❱ choose colors from the options given below.   [required]
 
-  -u  Name                                                            [required]
-  -c  Set Colors                                                      [required]
+Examples:
 
+	Colors : black, red, green, blue
+           : yellow, magenta, cyan, grey
 
+    Extras : rainbow, america, zebra, random
+```
+
+# Run
+
+```
+$ i-love -u unicorn -c rainbow
+```
+__OR__
+```
+$ i-love -u captain -c america
 ```
 
 ## Screenshot
@@ -40,31 +55,41 @@ __NOTE__ : You can copy and paste the following commands in your console
 
 ```
 $ i-love -u unicorn -c red
-
+```
+```
 $ i-love -u unicorn -c green
-
+```
+```
 $ i-love -u unicorn -c yellow
-
+```
+```
 $ i-love -u unicorn -c blue
-
+```
+```
 $ i-love -u unicorn -c cyan
-
+```
+```
 $ i-love -u unicorn -c white
-
+```
+```
 $ i-love -u unicorn -c black
-
+```
+```
 $ i-love -u unicorn -c magenta
-
+```
+```
 $ i-love -u unicorn -c gray
-
+```
+```
 $ i-love -u unicorn -c grey
-
+```
+```
 $ i-love -u unicorn -c zebra
-
-$ i-love -u unicorn -c america
-
+```
+```
 $ i-love -u unicorn -c random
-
+```
+```
 $ i-love -u unicorn -c trap
 ```
 
