@@ -13,9 +13,8 @@ const argv = require('yargs')
   .describe('u', ' ❱ any name.')
   .describe('c', ' ❱ choose colors from the options given below.')
   .demand(['u', 'c'])
-  .example('\n Colors : black, red, green, blue')
-  .example('       : yellow, magenta, cyan, grey')
-  .example('\n Extras : rainbow, america, zebra, random')
+  .example('\n Colors : red, green, blue, yellow')
+  .example('\n Extras : magenta, america, zebra, random')
   .example('\n Usage  : $0 -n UNICORN -n rainbow')
   .argv;
 
